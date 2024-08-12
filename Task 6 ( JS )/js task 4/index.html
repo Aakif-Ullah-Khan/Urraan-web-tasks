@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hours to Days</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+        
+    <div class="box">
+      <input id="name" type="text" placeholder="Enter Your name : " />
+      <button onclick="lowerCase()">Subbmit</button>
+      <p id="outputDisplay"></p>
+      <input type="button" value="Reset" onclick="location.reload()">
+    </div>
+
+    <script>
+        function lowerCase() {
+                let name = document.getElementById("name").value;
+                name = name.split(" ");
+                for (let i = 0; i < name.length; i++) {
+                        name[i] = name[i].charAt(0).toUpperCase() + name[i].slice(1);
+                }
+                name = name.join(" ");
+                document.getElementById("outputDisplay").innerHTML=name;
+
+
+
+
+
+
+
+
+
+
+
+                // let name = document.getElementById("name").value;
+                // name = name.split(" ");
+                // for (let i = 0; i < name.length; i++) {
+                //         name[i] = name[i].charAt(0).toUpperCase() + name[i].slice(1);
+                // }
+                // name = name.join(" "); // Convert to lowercase
+                // document.getElementById("outputDisplay").innerHTML = name;
+        }
+    </script>
+  </body>
+</html>

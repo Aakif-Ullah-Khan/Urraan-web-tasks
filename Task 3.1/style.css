@@ -1,0 +1,234 @@
+* {
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+       font-family: sans-serif;
+
+}
+
+header {
+       width: 100%;
+}
+
+header img {
+       padding: 20px;
+       width: 10%;
+}
+
+main {
+       width: 98.7%;
+       background-color: #8B3030;
+       display: flex;
+       margin-left: 20px;
+       justify-content: center;
+       align-items: center;
+}
+
+.left {
+       width: 50%;
+       height: 84vh;
+       display: flex;
+       flex-direction: column;
+        padding: 130px 100px;
+}
+
+.left .text {
+       width: 100%;
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: start;
+}
+
+.left .text h1 {
+       color: white;
+       padding-bottom: 20px;
+       font-size: 80px;
+       font-weight: 1000;
+}
+
+.left .text p {
+       width: 100%;
+       text-align: start;
+       font-size: 20px;
+}
+
+.btnl1{
+       width: 100%;
+}
+
+.btnl1 button{
+       float: left;
+       margin-left: 450px;
+       width: 16px;
+       height: 16px;
+
+}
+
+.left .text h2 {
+       color: rgb(8, 4, 4);
+       font-family: sans-serif;
+       font-weight: 1000;
+       padding-block: 20px;
+}
+
+/* //////////////////////////////////////////////////////////////// */
+
+.right {
+       width: 50%;
+       height: 170vh;
+       padding: 60px 80px;
+}
+
+
+.right .inputes {
+       display: flex;
+       flex-direction: column;
+}
+
+.inputes input[type="text"] {
+       width: 80%;
+       border: 1px solid white;
+       padding: 17px 10px;
+       background-color: transparent;
+       color: white;
+       border-radius: 4px;
+       margin: 10px;
+}
+
+.right h2 {
+       font-family: sans-serif;
+       font-weight: 900;
+       margin: 5px;
+}
+
+.right p {
+       font-size: 13px;
+       letter-spacing: 1px;
+       color: white;
+       margin: 10px;
+       width: 80%;
+
+}
+
+textarea {
+       width: 80%;
+       background-color: transparent;
+       color: white;
+       margin: 10px;
+       height: 80px;
+       padding: 10px;
+       font-size: 16px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       resize: both;
+}
+
+input[type="email"] {
+       width: 80%;
+       border: 1px solid white;
+       padding: 17px 10px;
+       border-radius: 4px;
+       background-color: transparent;
+       color: white;
+       margin: 10px;
+}
+
+input[type="checkbox"] {
+       margin: 10px;
+       width: 15px;
+       height: 15px;
+       background-color: transparent;
+       border: 1px solid black;
+}
+
+
+label {
+       color: white;
+}
+
+::placeholder {
+       color: white;
+       opacity: 0.8;
+}
+
+.Subbmition {
+       width: 70%;
+       height: 5%;
+       margin: 10px;
+       padding: 10px;
+       background-color: white;
+}
+
+.Subbmition {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       gap: 10px;
+}
+
+.Subbmition i {
+       font-size: 40px;
+}
+
+.Subbmition h2 {
+       font-weight: 500;
+}
+
+/* button {
+       width: 13px;
+       height: 13px;
+       margin-left: 150px;
+} */
+.box{
+       display: flex;
+       align-items: center;
+       gap: 100px;
+}
+.cheakbtn{
+       color: rgb(201, 203, 204);
+       justify-content: space-between;
+       align-items: center;
+       display: flex;
+       /* padding: 5px 8px; */
+}
+
+span{
+       
+       display: flex;
+       align-items: center;
+       /* justify-content: space-evenly; */
+   }
+
+.btn{
+       padding-right: 100px;
+       text-align: center;
+       display: flex;
+       justify-content: center;
+}
+
+.Livetreem{
+       margin-left: 71px;
+}
+
+.Compagin{
+       margin-left: 32px;
+}
+
+.Sponser{
+       margin-left: 8px;
+}
+
+.Technology{
+       margin-left: 6px;
+}
+
+.Onlion{
+       margin-left: 18px;
+}
+.btn2{
+
+       height: 15px;
+       width: 15px; 
+   }
